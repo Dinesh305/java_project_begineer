@@ -1,0 +1,28 @@
+class box{
+    int length;
+    int width;
+    int height;
+
+    box(int l,int w,int h){
+        length=l;
+        width=w;
+        height=h;
+        }
+
+    int boxvolume()
+    {
+        return length*width*height;
+        }
+    }
+
+public class new_method {
+    public static void main(String args[]){
+        System.out.println("welcome");
+
+        box volume=new box(10,20,30);
+
+
+        System.out.println(volume.boxvolume());
+    }
+
+}
